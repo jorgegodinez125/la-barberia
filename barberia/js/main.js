@@ -34,7 +34,7 @@
       if (window.scrollY >= s.offsetTop - 160) current = s.id;
     });
     navAs.forEach((a) => {
-      a.style.color = a.getAttribute('href') === `#${current}` ? 'var(--dorado)' : '';
+      a.style.color = a.getAttribute('href') === `#${current}` ? 'var(--plateado)' : '';
     });
   });
 

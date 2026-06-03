@@ -12,7 +12,7 @@ body {
 
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--negro); }
-::-webkit-scrollbar-thumb { background: var(--dorado); }
+::-webkit-scrollbar-thumb { background: var(--plateado); }
 
 section {
   padding: 7rem 4rem;
@@ -22,7 +22,7 @@ section {
   font-size: 0.6rem;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: var(--dorado);
+  color: var(--plateado);
   margin-bottom: 1rem;
   display: block;
 }
@@ -36,7 +36,7 @@ section {
   margin-bottom: 1.5rem;
 }
 
-.section-title em { font-style: italic; color: var(--dorado); }
+.section-title em { font-style: italic; color: var(--plateado); }
 
 .section-desc {
   font-size: 0.8rem;
@@ -69,7 +69,7 @@ section {
 }
 
 .btn-primary {
-  background: var(--dorado);
+  background: var(--plateado);
   color: var(--negro);
   font-weight: 600;
   position: relative;
@@ -80,7 +80,7 @@ section {
   content: '';
   position: absolute;
   inset: 0;
-  background: var(--dorado-claro);
+  background: var(--plateado-claro);
   transform: translateX(-100%);
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -88,7 +88,7 @@ section {
 .btn-primary:hover::before { transform: translateX(0); }
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 28px rgba(201, 168, 76, 0.35);
+  box-shadow: 0 12px 28px rgba(184, 184, 184, 0.25);
 }
 
 .btn-primary:active { transform: translateY(-1px); }
@@ -96,14 +96,14 @@ section {
 
 .btn-outline {
   background: transparent;
-  border-color: rgba(201, 168, 76, 0.45);
+  border-color: rgba(184, 184, 184, 0.45);
   color: var(--blanco-suave);
   font-weight: 500;
 }
 
 .btn-outline:hover {
-  border-color: var(--dorado);
-  color: var(--dorado);
+  border-color: var(--plateado);
+  color: var(--plateado);
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
@@ -130,12 +130,12 @@ section {
   content: '';
   flex: 1;
   height: 1px;
-  background: rgba(201,168,76,0.2);
+  background: rgba(184,184,184,0.2);
 }
 
 .line-sep-diamond {
   width: 6px; height: 6px;
-  background: var(--dorado);
+  background: var(--plateado);
   transform: rotate(45deg);
 }
 

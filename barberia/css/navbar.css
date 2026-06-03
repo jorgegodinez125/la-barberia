@@ -9,7 +9,7 @@ nav {
   background: rgba(10,10,10,0.92);
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(201,168,76,0.15);
+  border-bottom: 1px solid rgba(184,184,184,0.15);
   transition: padding 0.35s, background 0.35s, box-shadow 0.35s;
 }
 
@@ -23,7 +23,7 @@ nav.nav-scrolled {
   font-family: var(--font-display);
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--dorado);
+  color: var(--plateado);
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
@@ -54,17 +54,17 @@ nav.nav-scrolled {
   position: absolute;
   bottom: 0; left: 0;
   width: 0; height: 1px;
-  background: var(--dorado);
+  background: var(--plateado);
   transition: width 0.3s;
 }
 
-.nav-links a:hover { color: var(--dorado); }
+.nav-links a:hover { color: var(--plateado); }
 .nav-links a:hover::after { width: 100%; }
 
 .nav-cta {
   background: transparent;
-  border: 1px solid var(--dorado);
-  color: var(--dorado) !important;
+  border: 1px solid var(--plateado);
+  color: var(--plateado) !important;
   padding: 0.5rem 1.4rem;
   font-size: 0.65rem !important;
   letter-spacing: 3px;
@@ -73,7 +73,7 @@ nav.nav-scrolled {
 }
 
 .nav-cta:hover {
-  background: var(--dorado) !important;
+  background: var(--plateado) !important;
   color: var(--negro) !important;
 }
 
@@ -93,6 +93,6 @@ nav.nav-scrolled {
   display: block;
   width: 24px;
   height: 1.5px;
-  background: var(--dorado);
+  background: var(--plateado);
   transition: transform 0.3s, opacity 0.3s;
 }

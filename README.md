@@ -1,6 +1,8 @@
-# La Barbería — Sitio web
+# Milán Barber Studio — Sitio web
 
-Landing page estática para barbería: hero, servicios, galería, testimonios y contacto por WhatsApp.
+Landing page estática para barbería con concepto barra libre: hero, nosotros, galería de cortes, servicios y contacto por WhatsApp.
+
+**Dominio:** MilanBarberStudio.com
 
 ## Cómo ver el sitio
 
@@ -25,7 +27,8 @@ barberia/
 
 - **Galería:** reemplaza los `.jpg` en `barberia/assets/images/galeria/`
 - **WhatsApp / teléfono:** busca `526671234567` en `barberia/index.html`
-- **Estilos:** archivos en `barberia/css/`
+- **Precio barra libre:** busca `Consultar` en la sección de servicios
+- **Estilos:** paleta negro, blanco y plateado en `barberia/css/variables.css`
 
 ## Tecnologías
 

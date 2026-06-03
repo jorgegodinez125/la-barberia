@@ -19,7 +19,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1px;
-  background: rgba(201,168,76,0.1);
+  background: rgba(184,184,184,0.1);
   margin-top: 5rem;
   max-width: 700px;
   margin-left: auto;
@@ -36,7 +36,7 @@
   font-size: 0.6rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: var(--dorado);
+  color: var(--plateado);
   margin-bottom: 0.4rem;
 }
 
